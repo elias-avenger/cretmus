@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>3D Printing Services</title>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="bg-sky-800 p-4">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#" class="text-white text-2xl font-bold">Elias Printing</a>
+
+        <!-- Mobile Menu Button -->
+        <div class="lg:hidden">
+          <button class="text-white focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden lg:flex space-x-4">
+          <a href="#" class="text-white hover:text-gray-200">Home</a>
+          <a href="#" class="text-white hover:text-gray-200">Products</a>
+          <a href="#" class="text-white hover:text-gray-200">Services</a>
+          <a href="#" class="text-white hover:text-gray-200">About</a>
+          <a href="#" class="text-white hover:text-gray-200">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section -->
+    <header class="bg-gray-900 text-white" style="background-image: url('https://parametric-architecture.com/wp-content/uploads/2022/01/3d-printing-pa.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class="bg-black/70 w-full h-full py-24">
+            <div class="container mx-auto">
+                <div class="flex flex-col items-center justify-center">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-center mb-4">
+                    Welcome to Our 3D Printing Services
+                    </h1>
+                    <p class="text-lg md:text-xl lg:text-2xl text-center mb-8">
+                    Turn your ideas into reality with our high-quality 3D printing services and products.
+                    </p>
+                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full font-semibold">
+                    Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <!-- Who We Are Section -->
+    <section class="bg-gray-100 py-12 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Who We Are</h2>
+            <div class="flex flex-col md:flex-row md:space-x-8">
+                <!-- Company Info -->
+                <div class="md:w-1/2">
+                    <h3 class="text-xl font-semibold mb-4">Our Mission</h3>
+                    <p class="text-gray-700 md:text-lg">
+                        At 3D Printers, our mission is to provide high-quality 3D printing services and products that empower
+                        individuals and businesses to bring their ideas to life.
+                    </p>
+                    <h3 class="text-xl font-semibold mb-4 mt-8">Our Values</h3>
+                    <ul class="list-disc list-inside text-gray-700 md:text-lg">
+                        <li>Quality and Innovation</li>
+                        <li>Customer Satisfaction</li>
+                        <li>Reliability and Timeliness</li>
+                        <li>Continuous Improvement</li>
+                    </ul>
+                </div>
+
+                <!-- Team Members -->
+                <div class="md:w-1/2 mt-8 md:mt-0">
+                    <h3 class="text-xl font-semibold mb-4">Meet Our Team</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                        <!-- Team Member 1 -->
+                        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/John_Doe%2C_born_John_Nommensen_Duchac.jpg" alt="Team Member 1" class="w-full h-64 object-cover">
+                            <div class="p-4">
+                                <h4 class="text-lg font-semibold mb-2">Elias Muhoozi</h4>
+                                <p class="text-gray-600">Founder & CEO</p>
+                                <div class="flex justify-end mt-4">
+                                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-center">
+                                    View Profile
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 2 -->
+                        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                            <img src="https://i.pinimg.com/736x/b2/c1/75/b2c175cdd5d8eee0f7f9503d7ec1ed5a.jpg" alt="Team Member 2" class="w-full h-64 object-cover">
+                            <div class="p-4">
+                                <h4 class="text-lg font-semibold mb-2">Jane Smith</h4>
+                                <p class="text-gray-600">Lead Designer</p>
+                                <div class="flex justify-end mt-4">
+                                    <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-center">
+                                    View Profile
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-12 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Featured Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+                <!-- Product Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://ak.picdn.net/shutterstock/videos/1025830781/thumb/11.jpg" alt="Product 1" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Product 1</h3>
+                        <p class="text-gray-700">
+                        This is a description of Product 1. Showcase its unique features and why it's special.
+                        </p>
+                        <p class="text-blue-500 font-semibold mt-2">$49.99</p>
+                        <a href="#" class="block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mt-4 rounded-full text-center">
+                        View Details
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://ak.picdn.net/shutterstock/videos/1025830781/thumb/11.jpg" alt="Product 2" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Product 2</h3>
+                        <p class="text-gray-700">
+                        This is a description of Product 2. Highlight its applications and potential uses.
+                        </p>
+                        <p class="text-blue-500 font-semibold mt-2">$59.99</p>
+                        <a href="#" class="block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mt-4 rounded-full text-center">
+                        View Details
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://ak.picdn.net/shutterstock/videos/1025830781/thumb/11.jpg" alt="Product 3" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Product 3</h3>
+                        <p class="text-gray-700">
+                        This is a description of Product 3. Showcase its unique features and why it's special.
+                        </p>
+                        <p class="text-blue-500 font-semibold mt-2">$39.99</p>
+                        <a href="#" class="block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mt-4 rounded-full text-center">
+                        View Details
+                        </a>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://ak.picdn.net/shutterstock/videos/1025830781/thumb/11.jpg" alt="Product 3" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Product 3</h3>
+                        <p class="text-gray-700">
+                        This is a description of Product 3. Showcase its unique features and why it's special.
+                        </p>
+                        <p class="text-blue-500 font-semibold mt-2">$39.99</p>
+                        <a href="#" class="block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mt-4 rounded-full text-center">
+                        View Details
+                        </a>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://ak.picdn.net/shutterstock/videos/1025830781/thumb/11.jpg" alt="Product 3" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Product 3</h3>
+                        <p class="text-gray-700">
+                        This is a description of Product 3. Showcase its unique features and why it's special.
+                        </p>
+                        <p class="text-blue-500 font-semibold mt-2">$39.99</p>
+                        <a href="#" class="block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mt-4 rounded-full text-center">
+                        View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Services Section -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://www.javelin-tech.com/3d/wp-content/uploads/3d-product-architect-scaled.jpg" alt="Service 1" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">3D Printing Design</h3>
+                        <p class="text-gray-700">
+                        Let our expert designers bring your ideas to life with professional 3D printing designs.
+                        </p>
+                        <div class="flex justify-end mt-4">
+                            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-center">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5d36bce499578e0001357c6c/1629732095111-GBRC1M34WQSN8AAG6TSR/rapid+prototyping+and+3d+printing" alt="Service 2" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Prototyping</h3>
+                        <p class="text-gray-700">
+                        Rapidly create prototypes and iterate designs efficiently with our 3D printing services.
+                        </p>
+                        <div class="flex justify-end mt-4">
+                            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-center">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="https://assets-eu-01.kc-usercontent.com/8ff24b0e-57a3-0157-62d1-fa4ac9734eb5/88d77dd6-f6a4-41ab-bdac-59be92442e50/hm-mass-customization.jpg?w=3840&q=90&lossless=true&auto=format" alt="Service 3" class="w-full h-40 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Customization</h3>
+                        <p class="text-gray-700">
+                        Personalize your 3D printed products with our customization options for unique results.
+                        </p>
+                        <div class="flex justify-end mt-4">
+                            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-center">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Testimonials Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Testimonials</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- Testimonial Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-4">
+                        <p class="text-gray-700">
+                        "I'm amazed by the quality of their 3D printing service. The attention to detail and quick turnaround
+                        time are impressive!"
+                        </p>
+                        <div class="flex items-center mt-4">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9jIOIa3-_Hy-NLxMzvdTgUDXcW-IbyepI7eKB7CbtT-qTFcVDxUD3EOuSTYAoC9cE4o&usqp=CAU" alt="Client 1" class="w-12 h-12 rounded-full object-cover">
+                            <div class="ml-3">
+                                <h4 class="text-lg font-semibold">Emily Johnson</h4>
+                                <p class="text-gray-600">Product Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-4">
+                        <p class="text-gray-700">
+                        "The 3D printed prototypes they delivered exceeded my expectations. Excellent service overall!"
+                        </p>
+                        <div class="flex items-center mt-4">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9jIOIa3-_Hy-NLxMzvdTgUDXcW-IbyepI7eKB7CbtT-qTFcVDxUD3EOuSTYAoC9cE4o&usqp=CAU" alt="Client 2" class="w-12 h-12 rounded-full object-cover">
+                            <div class="ml-3">
+                                <h4 class="text-lg font-semibold">Michael Smith</h4>
+                                <p class="text-gray-600">Engineering Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div class="p-4">
+                        <p class="text-gray-700">
+                        "Their customer support is fantastic! They guided me through the process and delivered exactly what I
+                        needed."
+                        </p>
+                        <div class="flex items-center mt-4">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9jIOIa3-_Hy-NLxMzvdTgUDXcW-IbyepI7eKB7CbtT-qTFcVDxUD3EOuSTYAoC9cE4o&usqp=CAU" alt="Client 3" class="w-12 h-12 rounded-full object-cover">
+                            <div class="ml-3">
+                                <h4 class="text-lg font-semibold">Sarah Williams</h4>
+                                <p class="text-gray-600">Small Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-blue-500 py-12">
+        <div class="container mx-auto text-white text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
+            <p class="text-lg md:text-xl mb-8">Contact us today for high-quality 3D printing services and products.</p>
+            <a href="#contact" class="bg-white hover:bg-gray-300 text-blue-500 hover:text-blue-600 px-6 py-3 rounded-full font-semibold">
+                Contact Us
+            </a>
+        </div>
+    </section>
+
+    <!-- Mega Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Footer Menu -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Menu</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Signup -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Newsletter Signup</h3>
+                    <p class="text-gray-400 mb-4">Stay updated with the latest 3D printing news and offers.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your Email" class="w-full bg-gray-700 rounded-l-lg py-2 px-4 text-white focus:outline-none focus:ring focus:border-blue-500">
+                        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-r-lg">Subscribe</button>
+                    </form>
+                </div>
+
+                <!-- Social Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <ul class="flex space-x-4 text-xl">
+                        <li>
+                            <a href="#" class="text-white hover:text-blue-500">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-blue-500 hover:text-white">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-green-500 hover:text-blue-500">
+                                <i class="fa fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-red-400 hover:text-blue-500">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white hover:text-blue-500">
+                                <i class="fa fa-"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Additional Links/Info -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Additional Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <!-- Add more links as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper
+        var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        spaceBetween: 16,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        });
+    </script>
+
+</body>
+
+</html>
